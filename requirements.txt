@@ -1,0 +1,5 @@
+langchain_community
+datasets
+neo4j
+langchain
+langchain-openai
