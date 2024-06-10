@@ -9,3 +9,6 @@ The integration allows querying the database in natural language and receiving r
 **Frameworks:** LangChain to facilitate the interaction between the database and the LLM.
 
 **Expected Outcome:** The final deliverable allows natural language querying of the database via LLM, with responses formatted in natural language. For instance, querying "What is the Genre of Titanic?" yields a response like "Titanic is of Romance Adventure genre."
+
+**Video Explaination of the code:** [Link](https://www.veed.io/view/e88927c6-952b-4aed-b102-34352432e0c3?panel=share)
+
