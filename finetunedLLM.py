@@ -32,7 +32,6 @@ password = config["NEO4J_PASSWORD"]
 # Initialize a Neo4jGraph object with the connection details
 graph = Neo4jGraph(uri, username, password)
 
-'''
 # Load the movie dataset from Hugging Face
 dataset = load_dataset("SandipPalit/Movie_Dataset")
 
@@ -62,7 +61,6 @@ with driver.session() as session:
             
 # Close the Neo4j driver instance
 driver.close()
-'''
 
 # Initialize a GraphCypherQAChain with OpenAI's Chat model and the Neo4j graph
 chain = GraphCypherQAChain.from_llm(
